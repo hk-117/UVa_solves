@@ -1,3 +1,3 @@
 # UVa_solves
 
-Just for fun
+For learning purpose.......
