@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    unsigned int a,b,sum;
+    unsigned long int a,b,sum;
     while(cin>>a>>b){
         sum = a^b;
         cout<<sum<<endl;
