@@ -1,3 +1,3 @@
 # UVa_solves
 
-For learning purpose.......
+Some of My accepted UVA Online Judge Solutions
