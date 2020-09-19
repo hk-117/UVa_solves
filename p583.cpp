@@ -29,7 +29,7 @@ vi primeFactors(ll N){
 int main(){
   ll g;
   vi F;
-  sieve(10000000);
+  sieve(50000);
   while(cin>>g,g!=0){
     F= primeFactors(abs(g));
     printf("%lld = ",g);
