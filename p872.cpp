@@ -4,7 +4,7 @@ vector<int> indeg(100),Vars;
 vector<int> G[100];
 int sol=0;
 void allTopsort(vector<char> & lst,bitset<100> visited){
-  bool endList=true;;
+  bool endList=true;
   for(int i=0;i<Vars.size();i++){
     if(indeg[Vars[i]]==0 && !visited[Vars[i]]){
       for(int j=0;j<G[Vars[i]].size();j++)
