@@ -27,11 +27,6 @@ int main(){
     n++;
   }
   sort(A.begin(),A.end());
-  for(int i=0;i<A.size()-1;i++){
-    if(A[i].w==A[i+1].w){
-      A.erase(A.begin()+(i+1));
-    }
-  }
   n=A.size();
   int L[n], L_id[n], P[n];
   int lis = 0, lis_end = 0;
