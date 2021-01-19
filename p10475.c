@@ -2,9 +2,11 @@
 #include<string.h>
 #include<stdlib.h>
 #include<ctype.h>
+
 typedef struct{
   int tA,tB;
 } Pair;
+
 int t,preal,s,taken[20],ans[20];
 char Topics[20][20];
 Pair Map[250];
