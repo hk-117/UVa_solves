@@ -17,17 +17,6 @@ int lowerBound(int layer,int start,int end){
     }
   }
 }
-void DiagonalLB(int i,int j,int start,int end){
-  int mid=start+(end-start)/2;
-  if(start>end) return;
-  if(land[i+mid-1][j+mid-1]>U){
-    DiagonalLB(i,j,start,mid-1);
-  }
-  else{
-    mx=mx>mid?mx:mid;
-    DiagonalLB(i,j,mid+1,end);
-  }
-}
 void findMaxLand(){
   int i,low,up,Property=0,j;
   for(i=0;i<N;i++){
