@@ -16,8 +16,8 @@ int ways(int n,int k){
 }
 int main(){
   int N,K;
+  memset(Table,-1,sizeof Table);
   while(scanf("%d %d",&N,&K)==2 && (N||K)){
-    memset(Table,-1,sizeof Table);
     printf("%d\n",ways(N,K));
   }
 }
