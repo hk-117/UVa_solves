@@ -50,8 +50,6 @@ int findSol(string s){
 }
 
 int main(){
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
     string line;
     while(cin>>line,line!="#"){
         printf("%10d\n",findSol(line)+1);
